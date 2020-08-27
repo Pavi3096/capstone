@@ -1,0 +1,91 @@
+/* Main Styles */
+
+main {
+  max-width: 100%;
+  margin: 2 auto;
+  padding: 32px;
+  color: #fff;
+}
+
+section {
+  display: ;
+}
+
+
+
+h1 {text-align: center;}
+h1{color: yellow}
+p {text-align: center;}
+div {text-align: center;}
+
+h3 {
+  max-height: 150px;
+  max-width: 400px;
+  width: 120px;
+  height: 120px;   
+  color: aquamarine;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 35px;
+}
+
+a {
+  display: inherit;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color:aquamarine;
+}
+
+
+
+/* ToDo Component Styles */
+
+.todo-input {
+  font-size: 24px;
+  border: none;
+  width: 100%;
+}
+
+.todo-input:focus {
+  outline: none;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.todo {
+  margin: 32px 6px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  background: #d9d9d9;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  transition: all 300ms ease;
+}
+
+.delete {
+  margin-left: auto;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.checkbox:hover, .delete:hover {
+    opacity: 0.8;
+  }
+
+
+  h4 {color:burlywood}

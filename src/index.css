@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background-image: url("https://wallpaper-house.com/data/out/7/wallpaper2you_142730.jpg");
+  
+
+  font-family: unset,
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+}
